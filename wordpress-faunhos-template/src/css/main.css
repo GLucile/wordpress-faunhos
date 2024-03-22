@@ -407,3 +407,20 @@ figcaption {
   margin: 2.5% 20% 0 0;
 }
 
+/* ======================================================================== 
+// CSS ==> FOOTER PRECISIONS
+// =======================================================================*/
+.f-social {
+  display: flex;
+}
+
+.f-social p,
+.f-social a {
+  display: flex;
+  align-items: center;
+}
+
+.f-icon {
+  margin-left: 10px;
+}
+
