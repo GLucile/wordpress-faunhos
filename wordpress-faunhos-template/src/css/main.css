@@ -243,3 +243,85 @@ footer p {
   background-color: #2b2726;
 }
 
+/* ======================================================================== 
+// CSS ==> HORIZONTAL STROKES
+// =======================================================================*/
+.stroke {
+  position: relative;
+  z-index: -1;
+  width: 100%; /* Adjust width as needed */
+  height: 3px; /* Stroke height */
+  background-color: #2b2726; /* Stroke color */
+}
+.stroke::before,
+.stroke::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-style: solid;
+}
+.stroke::before {
+  top: -11px;
+  border-width: 14px 8px 10px;
+  border-color: #2b2726 transparent transparent transparent;
+  rotate: -90deg;
+  left: 0;
+}
+.stroke::after {
+  top: -11px;
+  border-width: 14px 8px 10px;
+  border-color: #2b2726 transparent transparent transparent;
+  rotate: 90deg;
+  right: 0;
+}
+.stroke-menu {
+  height: 2px;
+  margin: 2.5% 0;
+}
+.stroke-menu::before {
+  left: 1;
+}
+/* ======================================================================== 
+// CSS ==> VERTICAL STROKES
+// =======================================================================*/
+footer {
+  position: relative;
+}
+.f-stroke-verti {
+  width: 2px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  background-color: #e1e1d5;
+}
+.f-stroke-verti-left {
+  left: 33%;
+}
+.f-stroke-verti-right {
+  right: 33%;
+}
+.f-stroke-verti::before,
+.f-stroke-verti::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-style: solid;
+}
+.f-stroke-verti::before {
+  top: 0px;
+  border-width: 14px 8px 10px;
+  border-color: #e1e1d5 transparent transparent transparent;
+  rotate: 0deg;
+  left: -7;
+}
+.f-stroke-verti::after {
+  bottom: 0px;
+  border-width: 14px 8px 10px;
+  border-color: #e1e1d5 transparent transparent transparent;
+  rotate: 180deg;
+  right: -7;
+}
+
