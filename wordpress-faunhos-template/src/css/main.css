@@ -110,3 +110,49 @@ footer p {
   color: #e1e1d58c;
 }
 
+/* ============================
+// BARRE DE MENU
+// ============================ */
+.wrapper-head {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 4%;
+}
+.hdr-logo {
+  font-size: 44px;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+.slogan {
+  font-family: "Sorts Mill Goudy", serif;
+  font-weight: 400;
+  font-size: 20px;
+  letter-spacing: -6%;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+#searchform {
+  display: flex;
+  align-items: center;
+}
+#searchform input[type="text"] {
+  flex-grow: 1;
+  border: none;
+  border-bottom: 2px solid #2b2726;
+  padding: 5px;
+  background-color: #e1e1d5;
+}
+#searchsubmit {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+#searchsubmit i {
+  font-size: 1.2em; /* Adjust icon size as needed */
+  color: #2b2726; /* Adjust icon color */
+}
+
