@@ -325,3 +325,85 @@ footer {
   right: -7;
 }
 
+/* ======================================================================== 
+// CSS ==> INDEX HTML
+// =======================================================================*/
+.subtitle-journal-type {
+  font-family: "OFL Sorts Mill Goudy TT";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: 0.5em;
+  text-transform: uppercase;
+  margin-bottom: 54px;
+}
+
+/* ====================
+// BOX TENDANCES
+// ==================== */
+.inthenews {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0 25px 0;
+}
+.report-card-name {
+  font-size: 32px;
+  text-transform: uppercase;
+}
+
+/* ====================
+// BOX CONTINENTS
+// ==================== */
+.box-continents {
+  padding: 90px 0 70px 0;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+figcaption {
+  font-size: 26px;
+}
+
+.box-continents-page {
+  margin: 5% 4%;
+}
+
+.box-continents-page p {
+  font-size: 20px;
+  padding: 2% 6% 0 0;
+}
+
+/* ====================
+// BOX CLASSIFICATIONS
+// ==================== */
+.box-classification {
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+
+/* ====================
+// BOX PROFESSEUR
+// ==================== */
+.box-professor {
+  display: flex;
+}
+
+.news-title-professor {
+  font-size: 45px;
+  line-height: 120%;
+  padding: 0;
+}
+.news-infos-professor {
+  font-size: 24px;
+  line-height: 130%;
+  font-family: "Sorts Mill Goudy", serif;
+  margin: 2.5% 20% 0 0;
+}
+
