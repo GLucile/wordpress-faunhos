@@ -424,3 +424,103 @@ figcaption {
   margin-left: 10px;
 }
 
+/* ======================================================================== 
+// CSS ==> PAGE-ALL-MONSTER + MONSTERS CARDS
+// =======================================================================*/
+.article-head {
+  padding-bottom: 55px;
+  border-bottom: #2b2726 2px solid;
+}
+
+.monsters-table-news .monsters-card {
+  width: 260px;
+  height: 340px;
+}
+
+.monsters-table ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.monster-table-frontpage {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.monsters-table li {
+  list-style: none;
+}
+
+.monster-card {
+  display: flex;
+  flex-direction: column;
+  margin: 2% 4% 0%;
+  /* padding: 1% 1% 2% 1%; */
+  font-size: 32px;
+  text-transform: uppercase;
+  text-align: left;
+}
+
+.monster-illustration {
+  height: 335px;
+  width: 335px;
+  margin-bottom: 1%;
+  border: #2b2726 solid 2px;
+  mix-blend-mode: luminosity;
+}
+
+.monster-illustration img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.monster-taxonomy {
+  width: 60px;
+  font-weight: 500;
+  font-size: 12px;
+  border: #2b2726 solid 1px;
+  border-radius: 2px;
+  line-height: 150%;
+  padding: 4px 10px 5px 8px;
+  font-variant: all-small-caps;
+  margin: 5% 0 5% 10%;
+}
+
+.monsters {
+  margin-bottom: 3%;
+}
+
+.monsters-simili-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.monsters-all-link {
+  text-decoration: underline;
+  margin-right: 6%;
+}
+
+.monsters h2 {
+  margin-left: 2%;
+}
+
+.monsters ul {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  list-style: none;
+}
+
+.taxonomy-body {
+  margin: 2% 0 5% 0;
+}
+
