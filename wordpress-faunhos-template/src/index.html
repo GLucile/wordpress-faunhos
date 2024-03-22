@@ -1,0 +1,1532 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>eikon parcel starter</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body
+    class="home page-template-default page page-id-64 logged-in admin-bar no-customize-support"
+    data-template="base.twig"
+  >
+    <a class="skip-link screen-reader-text" href="#content">Aller au contenu</a>
+    <header class="header">
+      <div class="wrapper wrapper-head">
+        <h1 class="hdr-logo" role="banner">
+          <a
+            class="hdr-logo-link"
+            href="http://localhost/wordpress-faunhos/wordpress"
+            rel="home"
+            >Faunhos</a
+          >
+        </h1>
+        <p class="slogan">Créatures et rumeurs</p>
+        <nav id="nav-main" class="nav-main" role="navigation">
+          <form
+            role="search"
+            method="get"
+            id="searchform"
+            class="searchform"
+            action="http://localhost/wordpress-faunhos/wordpress"
+          >
+            <input type="text" value="" name="s" id="s" />
+            <button type="submit" id="searchsubmit" aria-label="Search">
+              <svg
+                class="search-icon"
+                xmlns="http://www.w3.org/2000/svg"
+                height="20"
+                width="20"
+                viewBox="0 0 512 512"
+              >
+                <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                <path
+                  fill="#2b2726"
+                  d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"
+                />
+              </svg>
+            </button>
+          </form>
+
+          <div class="hamburger-menu">
+            <input id="menu__toggle" type="checkbox" />
+            <label class="menu__btn" for="menu__toggle">
+              <span></span>
+            </label>
+            <ul class="menu__box">
+              <div class="stroke stroke-menu"></div>
+              <li
+                class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-44"
+              >
+                <a target="" href="http://localhost/wordpress-faunhos/wordpress"
+                  >Accueil</a
+                >
+                <ul></ul>
+              </li>
+              <div class="stroke stroke-menu"></div>
+              <li
+                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-41"
+              >
+                <a
+                  target=""
+                  href="http://localhost/wordpress-faunhos/wordpress/continents/"
+                  >Continents</a
+                >
+                <ul></ul>
+              </li>
+              <div class="stroke stroke-menu"></div>
+              <li
+                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-68"
+              >
+                <a
+                  target=""
+                  href="http://localhost/wordpress-faunhos/wordpress/all-monsters/"
+                  >Tous les monstres</a
+                >
+                <ul></ul>
+              </li>
+              <div class="stroke stroke-menu"></div>
+              <li
+                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-45"
+              >
+                <a
+                  target=""
+                  href="http://localhost/wordpress-faunhos/wordpress/pr-threepwood/"
+                  >Pr. Threepwood</a
+                >
+                <ul></ul>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <!-- #nav -->
+      </div>
+    </header>
+
+    <section id="content" role="main" class="content-wrapper">
+      <div class="wrapper">
+        <section class="monsters monsters-table monsters-table-news">
+          <div class="stroke"></div>
+          <h2>À la une !</h2>
+          <div class="stroke"></div>
+          <ul class="inthenews">
+            <li class="monsters-card monsters-card-jor">
+              <div class="monster-illustration monster-illustration-jor"></div>
+              <a
+                href="http://localhost/wordpress-faunhos/wordpress/monster/jormungand/"
+                >Jörmungand</a
+              >
+            </li>
+            <li class="monsters-card monsters-card-levia">
+              <div
+                class="monster-illustration monster-illustration-levia"
+              ></div>
+              <a
+                href="http://localhost/wordpress-faunhos/wordpress/monster/leviathan/"
+                >Léviathan</a
+              >
+            </li>
+            <li class="monsters-card monsters-card-zara">
+              <div class="monster-illustration monster-illustration-zara"></div>
+              <a
+                href="http://localhost/wordpress-faunhos/wordpress/monster/zaratan/"
+                >Zaratan</a
+              >
+            </li>
+            <li class="monsters-card monsters-card-wen">
+              <div class="monster-illustration monster-illustration-wen"></div>
+              <a
+                href="http://localhost/wordpress-faunhos/wordpress/monster/wendigo/"
+                >Wendigo</a
+              >
+            </li>
+          </ul>
+        </section>
+        <div class="content-wrapper">
+          <div class="stroke"></div>
+          <h2 class="wp-block-heading">Un continent en vue ?</h2>
+          <div class="stroke"></div>
+
+          <div
+            class="wp-block-columns is-layout-flex wp-container-core-columns-layout-3 wp-block-columns-is-layout-flex box-continents"
+          >
+            <div
+              class="wp-block-column is-layout-flow wp-block-column-is-layout-flow"
+            >
+              <div
+                class="wp-block-columns is-layout-flex wp-container-core-columns-layout-1 wp-block-columns-is-layout-flex"
+              >
+                <div
+                  class="wp-block-column is-layout-flow wp-block-column-is-layout-flow"
+                >
+                  <div class="wp-block-image">
+                    <figure class="aligncenter size-full is-resized">
+                      <a
+                        href="http://localhost/wordpress-faunhos/wordpress/continent/afrique/"
+                        ><img
+                          loading="lazy"
+                          decoding="async"
+                          width="512"
+                          height="585"
+                          src="http://localhost/wordpress-faunhos/wordpress/wp-content/uploads/2024/03/vintage-africa-map-2.png"
+                          alt=""
+                          class="wp-image-123"
+                          style="width: 162px; height: auto"
+                          srcset="
+                            http://localhost/wordpress-faunhos/wordpress/wp-content/uploads/2024/03/vintage-africa-map-2.png         512w,
+                            http://localhost/wordpress-faunhos/wordpress/wp-content/uploads/2024/03/vintage-africa-map-2-263x300.png 263w
+                          "
+                          sizes="(max-width: 512px) 100vw, 512px"
+                      /></a>
+                      <figcaption class="wp-element-caption">
+                        <a
+                          href="http://localhost/wordpress-faunhos/wordpress/continent/afrique/"
+                          data-type="continent"
+                          data-id="85"
+                          >Afrique</a
+                        >
+                      </figcaption>
+                    </figure>
+                  </div>
+                </div>
+
+                <div
+                  class="wp-block-column is-layout-flow wp-block-column-is-layout-flow"
+                >
+                  <div class="wp-block-image">
+                    <figure class="aligncenter size-full is-resized">
+                      <a
+                        href="http://localhost/wordpress-faunhos/wordpress/continent/amerique-du-nord/"
+                        ><img
+                          loading="lazy"
+                          decoding="async"
+                          width="218"
+                          height="302"
+                          src="http://localhost/wordpress-faunhos/wordpress/wp-content/uploads/2024/03/north-america-map-1.png"
+                          alt=""
+                          class="wp-image-106"
+                          style="width: 138px; height: auto"
+                          srcset="
+                            http://localhost/wordpress-faunhos/wordpress/wp-content/uploads/2024/03/north-america-map-1.png         218w,
+                            http://localhost/wordpress-faunhos/wordpress/wp-content/uploads/2024/03/north-america-map-1-217x300.png 217w
+                          "
+                          sizes="(max-width: 218px) 100vw, 218px"
+                      /></a>
+                      <figcaption class="wp-element-caption">
+                        <a
+                          href="http://localhost/wordpress-faunhos/wordpress/continent/amerique-du-nord/"
+                          data-type="continent"
+                          data-id="86"
+                          >Amérique du nord</a
+                        >
+                      </figcaption>
+                    </figure>
+                  </div>
+                </div>
+
+                <div
+                  class="wp-block-column is-layout-flow wp-block-column-is-layout-flow"
+                >
+                  <div class="wp-block-image">
+                    <figure class="aligncenter size-full is-resized">
+                      <a
+                        href="http://localhost/wordpress-faunhos/wordpress/continent/amerique-du-sud/"
+                        ><img
+                          loading="lazy"
+                          decoding="async"
+                          width="244"
+                          height="352"
+                          src="http://localhost/wordpress-faunhos/wordpress/wp-content/uploads/2024/03/south-america-map-1.png"
+                          alt=""
+                          class="wp-image-107"
+                          style="width: 135px; height: auto"
+                          srcset="
+                            http://localhost/wordpress-faunhos/wordpress/wp-content/uploads/2024/03/south-america-map-1.png         244w,
+                            http://localhost/wordpress-faunhos/wordpress/wp-content/uploads/2024/03/south-america-map-1-208x300.png 208w
+                          "
+                          sizes="(max-width: 244px) 100vw, 244px"
+                      /></a>
+                      <figcaption class="wp-element-caption">
+                        <a
+                          href="http://localhost/wordpress-faunhos/wordpress/continent/amerique-du-sud/"
+                          data-type="continent"
+                          data-id="87"
+                          >Amérique du sud</a
+                        >
+                      </figcaption>
+                    </figure>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="wp-block-column is-layout-flow wp-block-column-is-layout-flow"
+            >
+              <div
+                class="wp-block-columns is-layout-flex wp-container-core-columns-layout-2 wp-block-columns-is-layout-flex"
+              >
+                <div
+                  class="wp-block-column is-layout-flow wp-block-column-is-layout-flow"
+                >
+                  <div class="wp-block-image">
+                    <figure class="aligncenter size-full is-resized">
+                      <a
+                        href="http://localhost/wordpress-faunhos/wordpress/continent/asie/"
+                        ><img
+                          loading="lazy"
+                          decoding="async"
+                          width="326"
+                          height="332"
+                          src="http://localhost/wordpress-faunhos/wordpress/wp-content/uploads/2024/03/vintage-map-asia-ombre-1.png"
+                          alt=""
+                          class="wp-image-108"
+                          style="width: 189px; height: auto"
+                          srcset="
+                            http://localhost/wordpress-faunhos/wordpress/wp-content/uploads/2024/03/vintage-map-asia-ombre-1.png         326w,
+                            http://localhost/wordpress-faunhos/wordpress/wp-content/uploads/2024/03/vintage-map-asia-ombre-1-295x300.png 295w
+                          "
+                          sizes="(max-width: 326px) 100vw, 326px"
+                      /></a>
+                      <figcaption class="wp-element-caption">
+                        <a
+                          href="http://localhost/wordpress-faunhos/wordpress/continent/asie/"
+                          data-type="continent"
+                          data-id="84"
+                          >Asie</a
+                        >
+                      </figcaption>
+                    </figure>
+                  </div>
+                </div>
+
+                <div
+                  class="wp-block-column is-layout-flow wp-block-column-is-layout-flow"
+                >
+                  <div class="wp-block-image">
+                    <figure class="aligncenter size-full is-resized">
+                      <a
+                        href="http://localhost/wordpress-faunhos/wordpress/continent/europe/"
+                        ><img
+                          loading="lazy"
+                          decoding="async"
+                          width="338"
+                          height="332"
+                          src="http://localhost/wordpress-faunhos/wordpress/wp-content/uploads/2024/03/europe-map-ombre-2.png"
+                          alt=""
+                          class="wp-image-109"
+                          style="width: 196px; height: auto"
+                          srcset="
+                            http://localhost/wordpress-faunhos/wordpress/wp-content/uploads/2024/03/europe-map-ombre-2.png         338w,
+                            http://localhost/wordpress-faunhos/wordpress/wp-content/uploads/2024/03/europe-map-ombre-2-300x295.png 300w
+                          "
+                          sizes="(max-width: 338px) 100vw, 338px"
+                      /></a>
+                      <figcaption class="wp-element-caption">
+                        <a
+                          href="http://localhost/wordpress-faunhos/wordpress/continent/europe/"
+                          data-type="continent"
+                          data-id="83"
+                          >Europe</a
+                        >
+                      </figcaption>
+                    </figure>
+                  </div>
+                </div>
+
+                <div
+                  class="wp-block-column is-layout-flow wp-block-column-is-layout-flow"
+                >
+                  <div class="wp-block-image">
+                    <figure class="aligncenter size-full is-resized">
+                      <a
+                        href="http://localhost/wordpress-faunhos/wordpress/continent/oceanie/"
+                        ><img
+                          loading="lazy"
+                          decoding="async"
+                          width="304"
+                          height="306"
+                          src="http://localhost/wordpress-faunhos/wordpress/wp-content/uploads/2024/03/oceania-vintage-map-1.png"
+                          alt=""
+                          class="wp-image-110"
+                          style="width: 189px; height: auto"
+                          srcset="
+                            http://localhost/wordpress-faunhos/wordpress/wp-content/uploads/2024/03/oceania-vintage-map-1.png         304w,
+                            http://localhost/wordpress-faunhos/wordpress/wp-content/uploads/2024/03/oceania-vintage-map-1-298x300.png 298w,
+                            http://localhost/wordpress-faunhos/wordpress/wp-content/uploads/2024/03/oceania-vintage-map-1-150x150.png 150w
+                          "
+                          sizes="(max-width: 304px) 100vw, 304px"
+                      /></a>
+                      <figcaption class="wp-element-caption">
+                        <a
+                          href="http://localhost/wordpress-faunhos/wordpress/continent/oceanie/"
+                          data-type="continent"
+                          data-id="88"
+                          >Océanie</a
+                        >
+                      </figcaption>
+                    </figure>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="stroke"></div>
+          <h2 class="wp-block-heading">Quelle classification ?</h2>
+          <div class="stroke"></div>
+
+          <div
+            class="wp-block-columns is-layout-flex wp-container-core-columns-layout-5 wp-block-columns-is-layout-flex box-classification"
+          >
+            <div
+              class="wp-block-column is-layout-flow wp-block-column-is-layout-flow classification-firsttier"
+            >
+              <div class="wp-block-image">
+                <figure class="aligncenter size-full is-resized">
+                  <a
+                    href="http://localhost/wordpress-faunhos/wordpress/classification/reptile/"
+                    ><img
+                      loading="lazy"
+                      decoding="async"
+                      width="490"
+                      height="964"
+                      src="http://localhost/wordpress-faunhos/wordpress/wp-content/uploads/2024/03/dragon-reptile-1.png"
+                      alt=""
+                      class="wp-image-112"
+                      style="width: 178px; height: auto"
+                      srcset="
+                        http://localhost/wordpress-faunhos/wordpress/wp-content/uploads/2024/03/dragon-reptile-1.png         490w,
+                        http://localhost/wordpress-faunhos/wordpress/wp-content/uploads/2024/03/dragon-reptile-1-152x300.png 152w
+                      "
+                      sizes="(max-width: 490px) 100vw, 490px"
+                  /></a>
+                </figure>
+              </div>
+
+              <h4 class="wp-block-heading has-text-align-center">
+                <a
+                  href="http://localhost/wordpress-faunhos/wordpress/classification/reptile/"
+                  data-type="classification"
+                  data-id="15"
+                  >REPTILE</a
+                >
+              </h4>
+            </div>
+
+            <div
+              class="wp-block-column is-layout-flow wp-block-column-is-layout-flow classification-secondtier"
+            >
+              <div
+                class="wp-block-columns is-layout-flex wp-container-core-columns-layout-4 wp-block-columns-is-layout-flex"
+              >
+                <div
+                  class="wp-block-column is-vertically-aligned-top is-layout-flow wp-block-column-is-layout-flow"
+                >
+                  <div class="wp-block-image">
+                    <figure class="aligncenter size-full is-resized">
+                      <a
+                        href="http://localhost/wordpress-faunhos/wordpress/classification/mammifere/"
+                        ><img
+                          loading="lazy"
+                          decoding="async"
+                          width="432"
+                          height="400"
+                          src="http://localhost/wordpress-faunhos/wordpress/wp-content/uploads/2024/03/cerf-mammal.png"
+                          alt=""
+                          class="wp-image-113"
+                          style="width: 141px; height: auto"
+                          srcset="
+                            http://localhost/wordpress-faunhos/wordpress/wp-content/uploads/2024/03/cerf-mammal.png         432w,
+                            http://localhost/wordpress-faunhos/wordpress/wp-content/uploads/2024/03/cerf-mammal-300x278.png 300w
+                          "
+                          sizes="(max-width: 432px) 100vw, 432px"
+                      /></a>
+                    </figure>
+                  </div>
+
+                  <h4 class="wp-block-heading has-text-align-center">
+                    <a
+                      href="http://localhost/wordpress-faunhos/wordpress/classification/mammifere/"
+                      data-type="classification"
+                      data-id="14"
+                      >MAMMIFÈRE</a
+                    >
+                  </h4>
+
+                  <div class="wp-block-image">
+                    <figure class="aligncenter size-full is-resized">
+                      <a
+                        href="http://localhost/wordpress-faunhos/wordpress/classification/oiseau/"
+                        ><img
+                          loading="lazy"
+                          decoding="async"
+                          width="494"
+                          height="412"
+                          src="http://localhost/wordpress-faunhos/wordpress/wp-content/uploads/2024/03/pheonix-bird.png"
+                          alt=""
+                          class="wp-image-114"
+                          style="width: 179px; height: auto"
+                          srcset="
+                            http://localhost/wordpress-faunhos/wordpress/wp-content/uploads/2024/03/pheonix-bird.png         494w,
+                            http://localhost/wordpress-faunhos/wordpress/wp-content/uploads/2024/03/pheonix-bird-300x250.png 300w
+                          "
+                          sizes="(max-width: 494px) 100vw, 494px"
+                      /></a>
+                    </figure>
+                  </div>
+
+                  <h4 class="wp-block-heading has-text-align-center">
+                    <a
+                      href="http://localhost/wordpress-faunhos/wordpress/classification/oiseau/"
+                      data-type="classification"
+                      data-id="5"
+                      >OISEAU</a
+                    >
+                  </h4>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="wp-block-column is-layout-flow wp-block-column-is-layout-flow classification-thirdtier"
+            >
+              <div class="wp-block-image image-color-change">
+                <figure class="aligncenter size-full is-resized">
+                  <a
+                    href="http://localhost/wordpress-faunhos/wordpress/classification/aquatique/"
+                    ><img
+                      loading="lazy"
+                      decoding="async"
+                      width="408"
+                      height="400"
+                      src="http://localhost/wordpress-faunhos/wordpress/wp-content/uploads/2024/03/poisson-fish.png"
+                      alt="aquatic-class-icon"
+                      class="wp-image-115"
+                      style="width: 165px; height: auto"
+                      srcset="
+                        http://localhost/wordpress-faunhos/wordpress/wp-content/uploads/2024/03/poisson-fish.png         408w,
+                        http://localhost/wordpress-faunhos/wordpress/wp-content/uploads/2024/03/poisson-fish-300x294.png 300w
+                      "
+                      sizes="(max-width: 408px) 100vw, 408px"
+                  /></a>
+                </figure>
+              </div>
+
+              <h4 class="wp-block-heading has-text-align-center">
+                <a
+                  href="http://localhost/wordpress-faunhos/wordpress/classification/aquatique/"
+                  data-type="classification"
+                  data-id="23"
+                  >AQUATIQUE</a
+                >
+              </h4>
+
+              <div class="wp-block-image image-color-change">
+                <figure class="aligncenter size-full is-resized">
+                  <a
+                    href="http://localhost/wordpress-faunhos/wordpress/classification/autre/"
+                    ><img
+                      loading="lazy"
+                      decoding="async"
+                      width="520"
+                      height="412"
+                      src="http://localhost/wordpress-faunhos/wordpress/wp-content/uploads/2024/03/other-other-2-1.png"
+                      alt=""
+                      class="wp-image-116"
+                      style="width: 178px; height: auto"
+                      srcset="
+                        http://localhost/wordpress-faunhos/wordpress/wp-content/uploads/2024/03/other-other-2-1.png         520w,
+                        http://localhost/wordpress-faunhos/wordpress/wp-content/uploads/2024/03/other-other-2-1-300x238.png 300w
+                      "
+                      sizes="(max-width: 520px) 100vw, 520px"
+                  /></a>
+                </figure>
+              </div>
+
+              <h4 class="wp-block-heading has-text-align-center">
+                <a
+                  href="http://localhost/wordpress-faunhos/wordpress/classification/autre/"
+                  data-type="classification"
+                  data-id="16"
+                  >AUTRE</a
+                >
+              </h4>
+            </div>
+          </div>
+
+          <div
+            class="wp-block-columns is-layout-flex wp-container-core-columns-layout-6 wp-block-columns-is-layout-flex box-professor"
+          >
+            <div
+              class="wp-block-column is-layout-flow wp-block-column-is-layout-flow"
+            >
+              <div class="wp-block-image">
+                <figure class="aligncenter size-full is-resized">
+                  <img
+                    loading="lazy"
+                    decoding="async"
+                    width="557"
+                    height="788"
+                    src="http://localhost/wordpress-faunhos/wordpress/wp-content/uploads/2024/03/pr-threepwood-portrait-1.png"
+                    alt=""
+                    class="wp-image-77"
+                    style="width: 359px; height: auto"
+                    srcset="
+                      http://localhost/wordpress-faunhos/wordpress/wp-content/uploads/2024/03/pr-threepwood-portrait-1.png         557w,
+                      http://localhost/wordpress-faunhos/wordpress/wp-content/uploads/2024/03/pr-threepwood-portrait-1-212x300.png 212w
+                    "
+                    sizes="(max-width: 557px) 100vw, 557px"
+                  />
+                </figure>
+              </div>
+            </div>
+
+            <div
+              class="wp-block-column is-layout-flow wp-block-column-is-layout-flow"
+            >
+              <h2 class="wp-block-heading news-title-professor">
+                La chasseuse de monstres inconnue
+              </h2>
+
+              <p class="news-infos-professor">
+                Tout les articles se trouvant dans ce journal numérique
+                résultent de recherches, d’observations et d’écrits retrouvés
+                dans le carnet d’une certaine Pr. Threepwood.<br /><br />Aucunes
+                archives d’universités évoquent ladite femme et pourtant, elle a
+                transmis de précieuses informations sur divers monstres et
+                créatures monumentales de légendes.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer id="footer">
+      <div class="f-adress">
+        <p>
+          Faunhos <br />
+          46 Rue de la boustifaille <br />
+          75116 Paris
+        </p>
+      </div>
+      <div class="f-stroke-verti f-stroke-verti-left"></div>
+      <div class="f-mentions">
+        <p>
+          Mentions légales <br />
+          Conditions d'utilisation
+        </p>
+        <span class="copyrights">@2024 - Guex Lucile</span>
+      </div>
+      <div class="f-stroke-verti f-stroke-verti-right"></div>
+      <div class="f-social">
+        <p>
+          Retrouvez Faunhos ici :
+          <a href="#">
+            <svg
+              class="f-icon"
+              xmlns="http://www.w3.org/2000/svg"
+              height="20"
+              width="17.5"
+              viewBox="0 0 448 512"
+            >
+              <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+              <path
+                fill="#e1e1d5"
+                d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"
+              />
+            </svg>
+          </a>
+        </p>
+      </div>
+    </footer>
+
+      <a class="screen-reader-shortcut" href="#wp-toolbar" tabindex="1"
+        >Aller à la barre d’outils</a
+      >
+      <div
+        class="quicklinks"
+        id="wp-toolbar"
+        role="navigation"
+        aria-label="Barre d’outils"
+      >
+        <ul id="wp-admin-bar-root-default" class="ab-top-menu">
+          <li id="wp-admin-bar-wp-logo" class="menupop">
+            <a
+              class="ab-item"
+              aria-haspopup="true"
+              href="http://localhost/wordpress-faunhos/wordpress/wp-admin/about.php"
+              ><span class="ab-icon" aria-hidden="true"></span
+              ><span class="screen-reader-text">À propos de WordPress</span></a
+            >
+            <div class="ab-sub-wrapper">
+              <ul id="wp-admin-bar-wp-logo-default" class="ab-submenu">
+                <li id="wp-admin-bar-about">
+                  <a
+                    class="ab-item"
+                    href="http://localhost/wordpress-faunhos/wordpress/wp-admin/about.php"
+                    >À propos de WordPress</a
+                  >
+                </li>
+                <li id="wp-admin-bar-contribute">
+                  <a
+                    class="ab-item"
+                    href="http://localhost/wordpress-faunhos/wordpress/wp-admin/contribute.php"
+                    >Contribuer</a
+                  >
+                </li>
+              </ul>
+              <ul
+                id="wp-admin-bar-wp-logo-external"
+                class="ab-sub-secondary ab-submenu"
+              >
+                <li id="wp-admin-bar-wporg">
+                  <a class="ab-item" href="https://fr.wordpress.org/"
+                    >Site de WordPress-FR</a
+                  >
+                </li>
+                <li id="wp-admin-bar-documentation">
+                  <a class="ab-item" href="https://fr.wordpress.org/support/"
+                    >Documentation</a
+                  >
+                </li>
+                <li id="wp-admin-bar-learn">
+                  <a class="ab-item" href="https://learn.wordpress.org/"
+                    >Apprendre WordPress</a
+                  >
+                </li>
+                <li id="wp-admin-bar-support-forums">
+                  <a class="ab-item" href="https://wpfr.net/support"
+                    >Forums de support</a
+                  >
+                </li>
+                <li id="wp-admin-bar-feedback">
+                  <a
+                    class="ab-item"
+                    href="https://wordpress.org/support/forum/requests-and-feedback"
+                    >Vos retours</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li id="wp-admin-bar-site-name" class="menupop">
+            <a
+              class="ab-item"
+              aria-haspopup="true"
+              href="http://localhost/wordpress-faunhos/wordpress/wp-admin/"
+              >Faunhos</a
+            >
+            <div class="ab-sub-wrapper">
+              <ul id="wp-admin-bar-site-name-default" class="ab-submenu">
+                <li id="wp-admin-bar-dashboard">
+                  <a
+                    class="ab-item"
+                    href="http://localhost/wordpress-faunhos/wordpress/wp-admin/"
+                    >Tableau de bord</a
+                  >
+                </li>
+              </ul>
+              <ul id="wp-admin-bar-appearance" class="ab-submenu">
+                <li id="wp-admin-bar-themes">
+                  <a
+                    class="ab-item"
+                    href="http://localhost/wordpress-faunhos/wordpress/wp-admin/themes.php"
+                    >Thèmes</a
+                  >
+                </li>
+                <li id="wp-admin-bar-menus">
+                  <a
+                    class="ab-item"
+                    href="http://localhost/wordpress-faunhos/wordpress/wp-admin/nav-menus.php"
+                    >Menus</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li id="wp-admin-bar-customize" class="hide-if-no-customize">
+            <a
+              class="ab-item"
+              href="http://localhost/wordpress-faunhos/wordpress/wp-admin/customize.php?url=http%3A%2F%2Flocalhost%2Fwordpress-faunhos%2Fwordpress%2F"
+              >Personnaliser</a
+            >
+          </li>
+          <li id="wp-admin-bar-updates">
+            <a
+              class="ab-item"
+              href="http://localhost/wordpress-faunhos/wordpress/wp-admin/update-core.php"
+              ><span class="ab-icon" aria-hidden="true"></span
+              ><span class="ab-label" aria-hidden="true">1</span
+              ><span class="screen-reader-text updates-available-text"
+                >1 mise à jour disponible</span
+              ></a
+            >
+          </li>
+          <li id="wp-admin-bar-comments">
+            <a
+              class="ab-item"
+              href="http://localhost/wordpress-faunhos/wordpress/wp-admin/edit-comments.php"
+              ><span class="ab-icon" aria-hidden="true"></span
+              ><span
+                class="ab-label awaiting-mod pending-count count-0"
+                aria-hidden="true"
+                >0</span
+              ><span class="screen-reader-text comments-in-moderation-text"
+                >0 commentaire en modération</span
+              ></a
+            >
+          </li>
+          <li id="wp-admin-bar-new-content" class="menupop">
+            <a
+              class="ab-item"
+              aria-haspopup="true"
+              href="http://localhost/wordpress-faunhos/wordpress/wp-admin/post-new.php"
+              ><span class="ab-icon" aria-hidden="true"></span
+              ><span class="ab-label">Créer</span></a
+            >
+            <div class="ab-sub-wrapper">
+              <ul id="wp-admin-bar-new-content-default" class="ab-submenu">
+                <li id="wp-admin-bar-new-post">
+                  <a
+                    class="ab-item"
+                    href="http://localhost/wordpress-faunhos/wordpress/wp-admin/post-new.php"
+                    >Article</a
+                  >
+                </li>
+                <li id="wp-admin-bar-new-media">
+                  <a
+                    class="ab-item"
+                    href="http://localhost/wordpress-faunhos/wordpress/wp-admin/media-new.php"
+                    >Fichier média</a
+                  >
+                </li>
+                <li id="wp-admin-bar-new-page">
+                  <a
+                    class="ab-item"
+                    href="http://localhost/wordpress-faunhos/wordpress/wp-admin/post-new.php?post_type=page"
+                    >Page</a
+                  >
+                </li>
+                <li id="wp-admin-bar-new-monster">
+                  <a
+                    class="ab-item"
+                    href="http://localhost/wordpress-faunhos/wordpress/wp-admin/post-new.php?post_type=monster"
+                    >Monstre</a
+                  >
+                </li>
+                <li id="wp-admin-bar-new-continent">
+                  <a
+                    class="ab-item"
+                    href="http://localhost/wordpress-faunhos/wordpress/wp-admin/post-new.php?post_type=continent"
+                    >Continent</a
+                  >
+                </li>
+                <li id="wp-admin-bar-new-user">
+                  <a
+                    class="ab-item"
+                    href="http://localhost/wordpress-faunhos/wordpress/wp-admin/user-new.php"
+                    >Compte</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li id="wp-admin-bar-edit">
+            <a
+              class="ab-item"
+              href="http://localhost/wordpress-faunhos/wordpress/wp-admin/post.php?post=64&#038;action=edit"
+              >Modifier la page</a
+            >
+          </li>
+        </ul>
+        <ul
+          id="wp-admin-bar-top-secondary"
+          class="ab-top-secondary ab-top-menu"
+        >
+          <li id="wp-admin-bar-search" class="admin-bar-search">
+            <div class="ab-item ab-empty-item" tabindex="-1">
+              <form
+                action="http://localhost/wordpress-faunhos/wordpress/"
+                method="get"
+                id="adminbarsearch"
+              >
+                <input
+                  class="adminbar-input"
+                  name="s"
+                  id="adminbar-search"
+                  type="text"
+                  value=""
+                  maxlength="150"
+                /><label for="adminbar-search" class="screen-reader-text"
+                  >Rechercher</label
+                ><input
+                  type="submit"
+                  class="adminbar-button"
+                  value="Rechercher"
+                />
+              </form>
+            </div>
+          </li>
+          <li id="wp-admin-bar-my-account" class="menupop with-avatar">
+            <a
+              class="ab-item"
+              aria-haspopup="true"
+              href="http://localhost/wordpress-faunhos/wordpress/wp-admin/profile.php"
+              >Bonjour, <span class="display-name">admin-faunhos</span
+              ><img
+                alt=""
+                src="http://1.gravatar.com/avatar/dcd993deb3beefe61ff1b3cf9c15fe1b?s=26&#038;d=mm&#038;r=g"
+                srcset="
+                  http://1.gravatar.com/avatar/dcd993deb3beefe61ff1b3cf9c15fe1b?s=52&#038;d=mm&#038;r=g 2x
+                "
+                class="avatar avatar-26 photo"
+                height="26"
+                width="26"
+                loading="lazy"
+                decoding="async"
+            /></a>
+            <div class="ab-sub-wrapper">
+              <ul id="wp-admin-bar-user-actions" class="ab-submenu">
+                <li id="wp-admin-bar-user-info">
+                  <a
+                    class="ab-item"
+                    tabindex="-1"
+                    href="http://localhost/wordpress-faunhos/wordpress/wp-admin/profile.php"
+                    ><img
+                      alt=""
+                      src="http://1.gravatar.com/avatar/dcd993deb3beefe61ff1b3cf9c15fe1b?s=64&#038;d=mm&#038;r=g"
+                      srcset="
+                        http://1.gravatar.com/avatar/dcd993deb3beefe61ff1b3cf9c15fe1b?s=128&#038;d=mm&#038;r=g 2x
+                      "
+                      class="avatar avatar-64 photo"
+                      height="64"
+                      width="64"
+                      loading="lazy"
+                      decoding="async"
+                    /><span class="display-name">admin-faunhos</span></a
+                  >
+                </li>
+                <li id="wp-admin-bar-edit-profile">
+                  <a
+                    class="ab-item"
+                    href="http://localhost/wordpress-faunhos/wordpress/wp-admin/profile.php"
+                    >Modifier le profil</a
+                  >
+                </li>
+                <li id="wp-admin-bar-logout">
+                  <a
+                    class="ab-item"
+                    href="http://localhost/wordpress-faunhos/wordpress/wp-login.php?action=logout&#038;_wpnonce=643728328c"
+                    >Se déconnecter</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li id="wp-admin-bar-cache_enabler_clear_cache">
+            <a
+              class="ab-item"
+              href="/wordpress-faunhos/wordpress/?_cache=cache-enabler&#038;_action=clear&#038;_wpnonce=1aef259d0a"
+              title="Clear Site Cache"
+              ><span class="ab-item">Clear Site Cache</span></a
+            >
+          </li>
+          <li id="wp-admin-bar-cache_enabler_clear_page_cache">
+            <a
+              class="ab-item"
+              href="/wordpress-faunhos/wordpress/?_cache=cache-enabler&#038;_action=clearurl&#038;_wpnonce=1aef259d0a"
+              title="Clear Page Cache"
+              ><span class="ab-item">Clear Page Cache</span></a
+            >
+          </li>
+        </ul>
+      </div>
+      <a
+        class="screen-reader-shortcut"
+        href="http://localhost/wordpress-faunhos/wordpress/wp-login.php?action=logout&#038;_wpnonce=643728328c"
+        >Se déconnecter</a
+      >
+    </div> -->
+
+
+  <!-- Page all-monsters -->
+
+
+    <section id="content" role="main" class="content-wrapper">
+      <div class="wrapper">
+        <div class="content-wrapper article-head">
+          <article class="post-type-page" id="post-66">
+            <section class="article-content">
+              <h1 class="article-h1">Monstres</h1>
+              <div class="article-body">
+                <p class="has-text-align-left monsters-table-desc">
+                  Se regroupe sur cette page la liste de tout les rapports de la
+                  Professeure retrouvés. Par lequel souhaitez-vous commencer ?
+                </p>
+
+                <p></p>
+              </div>
+            </section>
+          </article>
+        </div>
+        <!-- /content-wrapper -->
+
+        <section class="monsters-table">
+          <ul>
+            <li class="monsters-card monsters-card-abaia">
+              <div
+                class="monster-illustration monster-illustration-abaia"
+              ></div>
+              <a
+                href="http://localhost/wordpress-faunhos/wordpress/monster/abaia/"
+                >Abaia</a
+              >
+            </li>
+            <li class="monsters-card monsters-card-bake">
+              <div class="monster-illustration monster-illustration-bake"></div>
+              <a
+                href="http://localhost/wordpress-faunhos/wordpress/monster/bake-kujira/"
+                >Bake-kujira</a
+              >
+            </li>
+            <li class="monsters-card monsters-card-baku">
+              <div class="monster-illustration monster-illustration-baku"></div>
+              <a
+                href="http://localhost/wordpress-faunhos/wordpress/monster/bakunawa/"
+                >Bakunawa</a
+              >
+            </li>
+            <li class="monsters-card monsters-card-cerb">
+              <div class="monster-illustration monster-illustration-cerb"></div>
+              <a
+                href="http://localhost/wordpress-faunhos/wordpress/monster/cerbere/"
+                >Cerbère</a
+              >
+            </li>
+            <li class="monsters-card monsters-card-dingo">
+              <div
+                class="monster-illustration monster-illustration-dingo"
+              ></div>
+              <a
+                href="http://localhost/wordpress-faunhos/wordpress/monster/dingonek/"
+                >Dingonek</a
+              >
+            </li>
+            <li class="monsters-card monsters-card-chin">
+              <div class="monster-illustration monster-illustration-chin"></div>
+              <a
+                href="http://localhost/wordpress-faunhos/wordpress/monster/dragon-chinois/"
+                >Dragon chinois</a
+              >
+            </li>
+            <li class="monsters-card monsters-card-jap">
+              <div class="monster-illustration monster-illustration-jap"></div>
+              <a
+                href="http://localhost/wordpress-faunhos/wordpress/monster/dragon-japonais/"
+                >Dragon japonais</a
+              >
+            </li>
+            <li class="monsters-card monsters-card-gasha">
+              <div
+                class="monster-illustration monster-illustration-gasha"
+              ></div>
+              <a
+                href="http://localhost/wordpress-faunhos/wordpress/monster/gashadokuro/"
+                >Gashadokuro</a
+              >
+            </li>
+            <li class="monsters-card monsters-card-groot">
+              <div
+                class="monster-illustration monster-illustration-groot"
+              ></div>
+              <a
+                href="http://localhost/wordpress-faunhos/wordpress/monster/grootslang/"
+                >Grootslang</a
+              >
+            </li>
+            <li class="monsters-card monsters-card-jersey">
+              <div
+                class="monster-illustration monster-illustration-jersey"
+              ></div>
+              <a
+                href="http://localhost/wordpress-faunhos/wordpress/monster/jersey-devil/"
+                >Jersey Devil</a
+              >
+            </li>
+            <li class="monsters-card monsters-card-jor">
+              <div class="monster-illustration monster-illustration-jor"></div>
+              <a
+                href="http://localhost/wordpress-faunhos/wordpress/monster/jormungand/"
+                >Jörmungand</a
+              >
+            </li>
+            <li class="monsters-card monsters-card-bird">
+              <div class="monster-illustration monster-illustration-bird"></div>
+              <a
+                href="http://localhost/wordpress-faunhos/wordpress/monster/loiseau-tonnerre/"
+                >L&rsquo;oiseau-tonnerre</a
+              >
+            </li>
+            <li class="monsters-card monsters-card-levia">
+              <div
+                class="monster-illustration monster-illustration-levia"
+              ></div>
+              <a
+                href="http://localhost/wordpress-faunhos/wordpress/monster/leviathan/"
+                >Léviathan</a
+              >
+            </li>
+            <li class="monsters-card monsters-card-manti">
+              <div
+                class="monster-illustration monster-illustration-manti"
+              ></div>
+              <a
+                href="http://localhost/wordpress-faunhos/wordpress/monster/manticore/"
+                >Manticore</a
+              >
+            </li>
+            <li class="monsters-card monsters-card-naga">
+              <div class="monster-illustration monster-illustration-naga"></div>
+              <a
+                href="http://localhost/wordpress-faunhos/wordpress/monster/naga/"
+                >Nāga</a
+              >
+            </li>
+            <li class="monsters-card monsters-card-peuchen">
+              <div
+                class="monster-illustration monster-illustration-peuchen"
+              ></div>
+              <a
+                href="http://localhost/wordpress-faunhos/wordpress/monster/peuchen/"
+                >Peuchen</a
+              >
+            </li>
+            <li class="monsters-card monsters-card-rain">
+              <div class="monster-illustration monster-illustration-rain"></div>
+              <a
+                href="http://localhost/wordpress-faunhos/wordpress/monster/the-rainbow-serpant/"
+                >The Rainbow serpant</a
+              >
+            </li>
+            <li class="monsters-card monsters-card-wen">
+              <div class="monster-illustration monster-illustration-wen"></div>
+              <a
+                href="http://localhost/wordpress-faunhos/wordpress/monster/wendigo/"
+                >Wendigo</a
+              >
+            </li>
+            <li class="monsters-card monsters-card-yacu">
+              <div class="monster-illustration monster-illustration-yacu"></div>
+              <a
+                href="http://localhost/wordpress-faunhos/wordpress/monster/yacumama/"
+                >Yacumama</a
+              >
+            </li>
+            <li class="monsters-card monsters-card-zara">
+              <div class="monster-illustration monster-illustration-zara"></div>
+              <a
+                href="http://localhost/wordpress-faunhos/wordpress/monster/zaratan/"
+                >Zaratan</a
+              >
+            </li>
+          </ul>
+        </section>
+      </div>
+    </section>
+
+    <footer id="footer">
+      <div class="f-adress">
+        <p>
+          Faunhos <br />
+          46 Rue de la boustifaille <br />
+          75116 Paris
+        </p>
+      </div>
+      <div class="f-mentions">
+        <p>
+          Mentions légales <br />
+          Conditions d'utilisation
+        </p>
+        <span class="copyrights">@2024 - Guex Lucile</span>
+      </div>
+      <div class="f-social">
+        <p>
+          Retrouvez Faunhos ici :
+          <a href="#">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="20"
+              width="17.5"
+              viewBox="0 0 448 512"
+            >
+              <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+              <path
+                fill="#e1e1d5"
+                d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"
+              />
+            </svg>
+          </a>
+        </p>
+      </div>
+    </footer>
+
+  <!-- Page single-monster-->
+
+
+    <section id="content" role="main" class="content-wrapper">
+      <div class="wrapper">
+        <div class="content-wrapper">
+          <article class="post-type-monster" id="post-55">
+            <section class="article-content">
+              <h1 class="article-h1">Grootslang</h1>
+
+              <a
+                href="http://localhost/wordpress-faunhos/wordpress/monster/grootslang/"
+                >edit</a
+              >
+              <div class="article-body">
+                <div
+                  class="wp-block-columns is-layout-flex wp-container-core-columns-layout-1 wp-block-columns-is-layout-flex single-column-1"
+                >
+                  <div
+                    class="wp-block-column is-layout-flow wp-block-column-is-layout-flow single-column-1-illu"
+                  >
+                    <div class="wp-block-image">
+                      <figure class="aligncenter size-full is-resized">
+                        <img
+                          loading="lazy"
+                          decoding="async"
+                          width="465"
+                          height="365"
+                          src="http://localhost/wordpress-faunhos/wordpress/wp-content/uploads/2024/03/grootslang-5.jpg"
+                          alt=""
+                          class="wp-image-93 single-column-1-img"
+                          style="width: 418px; height: auto"
+                          srcset="
+                            http://localhost/wordpress-faunhos/wordpress/wp-content/uploads/2024/03/grootslang-5.jpg         465w,
+                            http://localhost/wordpress-faunhos/wordpress/wp-content/uploads/2024/03/grootslang-5-300x235.jpg 300w
+                          "
+                          sizes="(max-width: 465px) 100vw, 465px"
+                        />
+                      </figure>
+                    </div>
+                  </div>
+
+                  <div
+                    class="wp-block-column is-layout-flow wp-block-column-is-layout-flow single-column-1-text"
+                  >
+                    <p>
+                      “Il existe une grotte, aux parois sculptées de diamants,
+                      qui relierait la côte à la mer. Cependant faites
+                      attention&#8230; Taille d’une girafe, crocs puissants,
+                      éternel, tel est le serpent géant qui garde ce tunnel
+                      maudit ainsi que son trésor mural. Il ne se refusera pas
+                      un repas supplémentaire en cas de votre présence.”
+                    </p>
+                  </div>
+                </div>
+
+                <div
+                  class="wp-block-columns is-layout-flex wp-container-core-columns-layout-2 wp-block-columns-is-layout-flex single-columns-2"
+                >
+                  <div
+                    class="wp-block-column is-layout-flow wp-block-column-is-layout-flow single-columns-2-text"
+                  >
+                    <h2 class="wp-block-heading">Description</h2>
+
+                    <p>
+                      En apparence, le serpent a une longueur de 12 à 15 m et
+                      laisserait une trace de 90 cm de largeur. Certaines
+                      légendes le décrivent comme ayant des diamants dans les
+                      orbites. Selon une version de l&rsquo;histoire rapportée
+                      chez les Bushmen, le Grootslang est plus vieux que le
+                      monde et protégera son trésor pour l&rsquo;éternité. Une
+                      autre forme de mythe affirme que le Grootslang est un
+                      esprit chargé de garder sa caverne des chercheurs de
+                      trésors, et que sa présence est marquée par un « sentiment
+                      du mal » irrésistible.<br /><br />Les peuples Khoekhoe
+                      (Khoikhoi, anciennement Hottentot) ou parlant le khoe
+                      d&rsquo;Afrique du Sud sont constitués de plusieurs
+                      groupes pastoraux. La légende du Grootslang peut provenir
+                      du pasteur nomade indigène Khoekhoen d&rsquo;Afrique du
+                      Sud.
+                    </p>
+                  </div>
+
+                  <div
+                    class="wp-block-column is-layout-flow wp-block-column-is-layout-flow single-columns-2-illu"
+                  >
+                    <div class="wp-block-image">
+                      <figure class="aligncenter size-full is-resized">
+                        <img
+                          loading="lazy"
+                          decoding="async"
+                          width="564"
+                          height="637"
+                          src="http://localhost/wordpress-faunhos/wordpress/wp-content/uploads/2024/03/grootslang-2.jpg"
+                          alt=""
+                          class="wp-image-91 single-columns-2-img"
+                          style="width: 393px; height: auto"
+                          srcset="
+                            http://localhost/wordpress-faunhos/wordpress/wp-content/uploads/2024/03/grootslang-2.jpg         564w,
+                            http://localhost/wordpress-faunhos/wordpress/wp-content/uploads/2024/03/grootslang-2-266x300.jpg 266w
+                          "
+                          sizes="(max-width: 564px) 100vw, 564px"
+                        />
+                      </figure>
+                    </div>
+                  </div>
+                </div>
+
+                <h2 class="wp-block-heading single-columns-3-title">
+                  Naissance d&rsquo;un mythe
+                </h2>
+
+                <div
+                  class="wp-block-columns is-layout-flex wp-container-core-columns-layout-3 wp-block-columns-is-layout-flex single-columns-3"
+                >
+                  <div
+                    class="wp-block-column is-layout-flow wp-block-column-is-layout-flow single-columns-3-text-1"
+                  >
+                    <p>
+                      Le Grootslang est plus vieux que le monde, selon la
+                      légende. Les dieux l&rsquo;ont fait avant de créer le
+                      monde. C’était la bête la plus puissante, la plus
+                      intelligente et la plus rusée créée par les dieux. Mais il
+                      a utilisé ses talents pour le mal. Les dieux regrettèrent
+                      bientôt d’avoir créé une entité aussi puissante mais aussi
+                      sournoise et crapuleuse. Ils voulaient donc reprendre ses
+                      pouvoirs.<br />Les dieux ont ensuite privé le Grootslang
+                      de ses pouvoirs en le divisant en morceaux plus petits.
+                      Les dieux façonnèrent un nouvel animal à partir de chaque
+                      partie. Les nouveaux animaux étaient moins puissants et
+                      moins rusés que la bête originale. Certaines versions de
+                      la légende prétendaient que les dieux divisaient le
+                      monstre en deux types d&rsquo;animaux, les éléphants et
+                      les serpents.
+                    </p>
+                  </div>
+
+                  <div
+                    class="wp-block-column is-layout-flow wp-block-column-is-layout-flow single-columns-3-text-2"
+                  >
+                    <p>
+                      La grotte « Wonder Hole » ou « Bottomless Pit », longue de
+                      64 kilomètres, relierait la côte à la mer et serait
+                      remplie de diamants qui guideraient quiconque la
+                      traversant. elle est parfois décrite comme étant reliée au
+                      fleuve Orange par un tuyau naturel à travers lequel les
+                      diamants sont progressivement acheminés vers le courant.
+                      Ici, la créature est réputée lovée autour d’un grand
+                      trésor d’or et de pierres précieuses. Selon la légende,
+                      une seule personne est entrée dedans et est revenue. Elle
+                      utilisa un treuil à câble pour descendre dans la grotte
+                      jusqu&rsquo;à atteindre une corniche. Là, elle a vu des
+                      tunnels menant plus loin et a senti une forte odeur de
+                      soufre, elle a laissé tomber sa lampe électrique lorsque
+                      des chauves-souris ont volé vers elle et ont dû être
+                      remontées. elle ne redescendit plus dans la grotte.
+                    </p>
+                  </div>
+                </div>
+
+                <div
+                  class="wp-block-columns is-layout-flex wp-container-core-columns-layout-4 wp-block-columns-is-layout-flex single-columns-4"
+                >
+                  <div
+                    class="wp-block-column is-layout-flow wp-block-column-is-layout-flow single-columns-4-text"
+                  >
+                    <h2 class="wp-block-heading">Le trésor des dieux</h2>
+
+                    <p>
+                      Il représentait un serpent primordial qui garde une grotte
+                      mythique où les dieux cachaient leurs trésors. Il pourrait
+                      aussi être une allégorie de l’immortalité.
+                    </p>
+
+                    <h2 class="wp-block-heading">Anciennes peintures</h2>
+
+                    <p>
+                      J’ai répertorié des représentations rupestres ressemblant
+                      au Grootslang en Afrique du Sud : à Cathedral Peak, dans
+                      la crête de Brakfontein et près d’Aasvoëlkop.
+                    </p>
+
+                    <h2 class="wp-block-heading">Grand chasseur</h2>
+
+                    <p>
+                      Éléphants, rhinocéros, girafes, lions, buffles,
+                      bétail&#8230; Il saisissait les animaux au bord du fleuve
+                      et les entraînait dans sa grotte, où il les dévorait.
+                    </p>
+                  </div>
+
+                  <div
+                    class="wp-block-column is-layout-flow wp-block-column-is-layout-flow single-columns-4-illu"
+                  >
+                    <figure class="wp-block-image size-full">
+                      <img
+                        loading="lazy"
+                        decoding="async"
+                        width="538"
+                        height="316"
+                        src="http://localhost/wordpress-faunhos/wordpress/wp-content/uploads/2024/03/grootslang-6.jpg"
+                        alt=""
+                        class="wp-image-92 single-columns-3-img"
+                        srcset="
+                          http://localhost/wordpress-faunhos/wordpress/wp-content/uploads/2024/03/grootslang-6.jpg         538w,
+                          http://localhost/wordpress-faunhos/wordpress/wp-content/uploads/2024/03/grootslang-6-300x176.jpg 300w
+                        "
+                        sizes="(max-width: 538px) 100vw, 538px"
+                      />
+                    </figure>
+                  </div>
+                </div>
+              </div>
+              <a
+                class="monster-taxonomy"
+                href="http://localhost/wordpress-faunhos/wordpress/continent/afrique"
+                >Afrique</a
+              >
+              <a
+                class="monster-taxonomy"
+                href="http://localhost/wordpress-faunhos/wordpress/classification/reptile"
+                >Reptile</a
+              >
+              <a
+                class="monster-taxonomy"
+                href="http://localhost/wordpress-faunhos/wordpress/environnement/sous-terrains"
+                >Sous-terrains</a
+              >
+            </section>
+          </article>
+        </div>
+        <!-- /content-wrapper -->
+
+        <section class="monsters">
+          <h2>Monstres similaires</h2>
+          <a class="all-monsters-link" href="all-monsters">tous les monstres</a>
+          <ul>
+            <li>
+              <!-- <a href=""><img src=" " /></a> -->
+              <a
+                href="http://localhost/wordpress-faunhos/wordpress/monster/loiseau-tonnerre/"
+                >L&rsquo;oiseau-tonnerre</a
+              >
+              <p></p>
+            </li>
+            <li>
+              <!-- <a href=""><img src=" " /></a> -->
+              <a
+                href="http://localhost/wordpress-faunhos/wordpress/monster/dingonek/"
+                >Dingonek</a
+              >
+              <p></p>
+            </li>
+            <li>
+              <!-- <a href=""><img src=" " /></a> -->
+              <a
+                href="http://localhost/wordpress-faunhos/wordpress/monster/grootslang/"
+                >Grootslang</a
+              >
+              <p></p>
+            </li>
+          </ul>
+        </section>
+      </div>
+    </section>
+
+    <footer id="footer">
+      <div class="f-adress">
+        <p>
+          Faunhos <br />
+          46 Rue de la boustifaille <br />
+          75116 Paris
+        </p>
+      </div>
+      <div class="f-stroke-verti f-stroke-verti-left"></div>
+      <div class="f-mentions">
+        <p>
+          Mentions légales <br />
+          Conditions d'utilisation
+        </p>
+        <span class="copyrights">@2024 - Guex Lucile</span>
+      </div>
+      <div class="f-stroke-verti f-stroke-verti-right"></div>
+      <div class="f-social">
+        <p>
+          Retrouvez Faunhos ici :
+          <a href="#">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="20"
+              width="17.5"
+              viewBox="0 0 448 512"
+            >
+              <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+              <path
+                fill="#e1e1d5"
+                d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"
+              />
+            </svg>
+          </a>
+        </p>
+      </div>
+    </footer>
+
+
+    <style id="core-block-supports-inline-css" type="text/css">
+      .wp-container-core-columns-layout-1.wp-container-core-columns-layout-1 {
+        flex-wrap: nowrap;
+      }
+      .wp-container-core-columns-layout-2.wp-container-core-columns-layout-2 {
+        flex-wrap: nowrap;
+      }
+      .wp-container-core-columns-layout-3.wp-container-core-columns-layout-3 {
+        flex-wrap: nowrap;
+      }
+      .wp-container-core-columns-layout-4.wp-container-core-columns-layout-4 {
+        flex-wrap: nowrap;
+      }
+      .wp-container-core-columns-layout-5.wp-container-core-columns-layout-5 {
+        flex-wrap: nowrap;
+      }
+      .wp-container-core-columns-layout-6.wp-container-core-columns-layout-6 {
+        flex-wrap: nowrap;
+      }
+    </style>
+    <script
+      type="text/javascript"
+      src="http://localhost/wordpress-faunhos/wordpress/wp-includes/js/hoverintent-js.min.js?ver=2.2.1"
+      id="hoverintent-js-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="http://localhost/wordpress-faunhos/wordpress/wp-includes/js/admin-bar.min.js?ver=6.4.3"
+      id="admin-bar-js"
+    ></script>
+    <script type="text/javascript">
+      /* <![CDATA[ */
+
+      (function () {
+        var request,
+          b = document.body,
+          c = "className",
+          cs = "customize-support",
+          rcs = new RegExp("(^|\\s+)(no-)?" + cs + "(\\s+|$)");
+
+        request = true;
+
+        b[c] = b[c].replace(rcs, " ");
+        // The customizer requires postMessage and CORS (if the site is cross domain).
+        b[c] += (window.postMessage && request ? " " : " no-") + cs;
+      })();
+
+      /* ]]> */
+    </script>
+    <script src="js/main.js" type="modules"></script>
+    <!-- <div id="wpadminbar" class="nojq nojs"> -->
+  </body>
+</html>
