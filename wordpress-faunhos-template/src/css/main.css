@@ -1,0 +1,112 @@
+/* ====================================
+// css variables
+// ==================================== */
+
+:root {
+}
+
+/* ====================================
+// reset rules
+// ==================================== */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+
+  font-size: 1rem;
+  line-height: 1.25;
+}
+
+a {
+  color: inherit;
+}
+
+img,
+video {
+  max-inline-size: 100%;
+  block-size: auto;
+  vertical-align: middle;
+}
+
+/* ====================================
+// base rules
+// ==================================== */
+
+/* Désolé que ça soit sur une seule page. 
+// J'ai suivi le tuto et pas féfléchi à la création du dossier. */
+
+body {
+  background-color: #e1e1d5;
+  font-family: "Playfair Display", serif;
+  list-style: none;
+}
+
+header {
+  border-bottom: #2b2726 solid 4px;
+  padding-bottom: 1%;
+}
+
+h1 {
+  font-weight: 300;
+  font-size: 180px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+h2 {
+  font-weight: 400;
+  font-size: 48px;
+  text-transform: uppercase;
+  padding: 0.5% 0 0.8% 8%;
+}
+
+h4 {
+  font-weight: 500;
+  font-size: 32px;
+  text-transform: uppercase;
+  margin-top: 26px;
+}
+
+p {
+  font-family: "Sorts Mill Goudy", serif;
+  font-size: 24px;
+  line-height: 130%;
+}
+
+img {
+  mix-blend-mode: luminosity;
+}
+
+a {
+  text-decoration: none;
+}
+
+footer {
+  background-color: #2b2726;
+  color: #e1e1d5;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  padding: 40px 0;
+}
+
+footer p {
+  font-size: 16px;
+}
+
+.copyrights {
+  font-size: 14px;
+  color: #e1e1d58c;
+}
+
